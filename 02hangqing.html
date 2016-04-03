@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>价格</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.8.3.js"></script>
+
+</head>
+
+<body>
+
+	<div class="page">
+		<div class="header">
+			<h3 class="headTit">农产品产销通</h3>
+		</div>
+		<div class="content">
+			<div class="h12"></div>
+			<div class="priceTabCont">
+				<div class="priceTabChild recenPriceCont">
+					<ul class="recenPriceCont_ul">
+						<li>
+							<p class="recenTime">2016年3月29日</p>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+						</li>
+						<li>
+							<p class="recenTime">2016年3月29日</p>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+						</li>
+						<li>
+							<p class="recenTime">2016年3月29日</p>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+						</li>
+						<li>
+							<p class="recenTime">2016年3月29日</p>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+						</li>
+						<li>
+							<p class="recenTime">2016年3月29日</p>
+							<div class="recenTxt recenTxt_border clearfix">
+								<a href="02hangqing2.html">
+									<p class="recenTxt_01 recenTxt_01No fl">
+										<span class="caomeiTit">草莓良渚农产品批发市场</span>
+									</p>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<div class="downArrow">
+						<img src="images/icon/downArrow.png" />
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="footer">
+			<ul class="fiveBtn">
+				<li class="dituNavigation">
+					<a href="index.html">
+						<img class="fiveBtn_icon" src="images/icon/bot_01.png" />
+						<p class="fiveBtn_txt">价格</p>
+					</a>
+				</li>
+				<li class="dituNavigation dituNavigation_active">
+					<a href="02hangqing.html">
+						<img class="fiveBtn_icon" src="images/icon/bot_02Aactive.png" />
+						<p class="fiveBtn_txt">行情</p>
+					</a>
+				</li>
+				<li class="dituNavigation">
+					<a href="03business-sale1.html">
+						<img class="fiveBtn_icon" src="images/icon/bot_03.png" />
+						<p class="fiveBtn_txt">买卖</p>
+					</a>
+				</li>				
+				<li class="dituNavigation" style="border-right:0px;">
+					<a href="04my.html">
+						<img class="fiveBtn_icon" src="images/icon/bot_04.png" />
+						<p class="fiveBtn_txt">我的</p>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript">
+	
+		$(document).ready(function (){
+		
+			$(".priceTabBtn_ul li").click(function (){
+				var iIndex=$(this).index();
+				$(".priceTabBtn_ul li").removeClass("tabBtnActive");
+				$(this).addClass("tabBtnActive");
+				$(".priceTabChild").hide();
+				$(".priceTabChild").eq(iIndex).show();
+			});
+		
+		});
+	
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+1.01price-add.html页面的点击对号图标js代码改成点击对号图标所在整个li行  √
+2.01edit-1.html页面点击“全选”在iPhone5se(ios)的QQ里点击后问题是①文字还是全选，②页面会刷新一次
+3.01price-history1.html页面3个选项卡按钮的最后一个按钮width占不满剩下的宽度 √
+原因是，当你的内部以“%”取值时，如果取值结果为小数时，则结果四舍五入
+解决方法是：用js给ul和li1、li2的宽度取整，然后li3=ul-li1-li2
+注意width()、outerWidth()
+4.默认select下拉框的小三角按钮在iPhone5se(ios)不显示 √
+解决方法：给<select>外面套一个div，把select的background:transparent;然后给div加background:url(../images/icon/selectArrow_down.png) no-repeat right #FFF;
+5.点击日历图标，弹出日历选择器怎样实现
+
+
+
+
+
+
+
